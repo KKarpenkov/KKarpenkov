@@ -1,0 +1,72 @@
+html {
+    margin: 0;
+    height: 100%;
+    --webkit-font-smoothing: antialiased;
+}
+body {
+    margin: 0 auto;
+    background-color: grey;
+    width: 540px;
+    max-height: 100%;
+    color: white;
+    padding: 36px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.header {
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+    background-color: blue;
+}
+.army {
+    width: 211px;
+    background-color: red;
+    height: 300px;
+    display: inline-block;
+    padding: 15px 15px 15px 15px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    align-items: center;
+    margin-right: 40px;
+}
+.no-margin {
+    margin-right: 0px;
+}
+.image {
+    width: 100%;
+    height: 60%;
+    margin: auto;
+    display: block;
+    align-items: center;
+}
+.buttonGatherTroops {
+    width: 100%;
+    height: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: opacity 0.2s;
+    margin: 0%;
+    margin-bottom: 15px; 
+}
+.buttonGatherTroops:hover {
+    opacity: 0.5;
+}
+.troops {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    height:30px;
+    text-align: center;
+
+}
+
+
+
+
+
